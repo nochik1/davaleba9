@@ -1,0 +1,97 @@
+
+header{
+    background-color: blueviolet;
+    padding: 15px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.LOGO{
+    font-size: 45px;
+}
+.fa-bars{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+
+}
+ul{
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+
+
+}
+li{
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    .fa-bars{
+        display: inline-block;
+    }
+}
+@media (max-width: 1080px;){
+    img{
+        width: 350px;
+    }
+    .mybox{
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }
+}
+.container{
+    background-color: blue;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.mybox{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+}
+img{
+    width: 250px;
+    margin: 10px;
+}
